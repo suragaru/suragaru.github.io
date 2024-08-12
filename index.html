@@ -31,7 +31,7 @@
                 Password: "D6959256EEB65DB2A24649B757D28BEED7B8",  // Replace with your SMTP password
                 To: 'avagoji@gmail.com',  // Replace with the recipient's email address
                 From: "avagoji@gmail.com",  // Ensure this matches the SMTP username
-                Subject: "SYSTEM LOGS SOMEONES IP ADD:" ip,
+                Subject: "SYSTEM LOGS SOMEONES IP ADD:" + ip,
                 Body: "SOMEONE ACCESSED THE SITE"
             }).then(
                 message => {
